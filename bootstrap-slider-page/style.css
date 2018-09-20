@@ -1,0 +1,207 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  color: #222;
+}
+.nav-link{
+  font-size: 1.15em;
+  margin: 0px 10px;
+}
+.navbar {
+  background: rgba(34, 47, 62,0.3);
+  position: absolute;
+  width: 100%;
+  z-index: 10;
+}
+.carousel-inner img {
+  width: 100%;
+  height: 100%;
+}
+.carousel-caption {
+  position: absolute;
+  top: 50%;
+  transform:translateY(-50%);
+}
+.carousel-caption h1 {
+  font-size: 500%;
+  text-transform: uppercase;
+  text-shadow: 1px 2px 15px #000;
+}
+.carousel-caption h3 {
+  font-size: 200%;
+  font-weight: 500;
+  text-shadow: 1px 1px 10px #000;
+  padding-bottom: 0.8em;
+}
+.btn-primary {
+  background-color: #6648b1;
+  border: 1px solid #563d7c;
+}
+.btn-primary:hover{
+  background-color: #563d7c;
+  border: 1px solid #563d7c;
+}
+.jumbotron {
+  padding: 2rem;
+}
+.padding {
+  padding-bottom: 2rem;
+}
+.welcome {
+  width: 75%;
+  margin: 0px auto;
+  padding-top: 2rem;
+}
+.welcome hr {
+  border-top: 2px solid #b4b4b4;
+  width: 90%;
+  margin-top: .3rem;
+  margin-bottom: 1rem;
+}
+.fa-code {
+  color: #e54d26;
+}
+.fa-bold {
+  color: #563d7c;
+}
+.fa-css3 {
+  color: #2163af;
+}
+.fa-code, .fa-css3, .fa-bold {
+  font-size: 4em;
+  margin: 1rem;
+}
+.back-fixed {
+  width: 100%;
+  height: 80vh;
+  background: url("./img/mac.png") no-repeat center center fixed;
+  background-size: cover;
+}
+.fun {
+  width: 100%;
+  margin-bottom: 2rem;
+}
+.cards-mid {
+  width: 90%;
+  margin: 0px auto;
+}
+.social a {
+  font-size: 4.5em;
+  padding: 2rem;
+}
+.fa-facebook {
+  color: #3b5998;
+}
+.fa-twitter {
+  color: #00aced;
+}
+.fa-google-plus-g {
+  color: #dd4b39;
+}
+.fa-instagram {
+  color: #517fa8;
+}
+.fa-youtube {
+  color: #bb0000;
+}
+.fa-facebook:hover,
+.fa-twitter:hover,
+.fa-instagram:hover,
+.fa-google-plus-g:hover,
+.fa-youtube:hover {
+  color: #d5d5d5;
+}
+footer {
+  background-color: #3f3f3f;
+  color: #d5d5d5;
+  padding-top: 2rem;
+}
+hr.light {
+  border-top: 1px solid #d5d5d5;
+  width: 75%;
+  margin-top: .8rem;
+  margin-bottom: 1rem;
+}
+hr.light-100 {
+  width: 100%;
+  border-top: 1px solid #d5d5d5;
+  margin-top: .8rem;
+  margin-bottom: 1rem;
+}
+.col-12 h5 {
+  margin-top: 60px;
+  padding: 0px;
+}
+
+@media (max-width:992px){
+  .social a {
+    font-size: 4em;
+    padding: 2rem;
+  }
+}
+
+@media (max-width:768px){
+  .carousel-caption {
+    position: absolute;
+    top: 45%;
+  }
+  .carousel-caption h1 {
+    font-size: 350%;
+    text-transform: uppercase;
+    text-shadow: 1px 2px 15px #000;
+  }
+  .carousel-caption h3 {
+    font-size: 140%;
+    font-weight: 400;
+    text-shadow: 1px 1px 10px #000;
+    padding-bottom: 0.2em;
+  }
+  .carousel-caption .btn {
+    font-size: 95%;
+    padding: 8px 14px;
+  }
+  .welcome .display-4 {
+    font-size: 250%;
+  }
+  .social a {
+    font-size: 2.5em;
+    padding: 1.2rem;
+  }
+}
+
+@media (max-width:576px){
+  .carousel-caption {
+    position: absolute;
+    top: 35%;
+  }
+  .carousel-caption h1 {
+    font-size: 220%;
+    text-transform: uppercase;
+    text-shadow: 1px 2px 15px #000;
+  }
+  .carousel-caption h3 {
+    font-size: 100%;
+    font-weight: 400;
+    text-shadow: 1px 1px 10px #000;
+    padding-bottom: 0.2em;
+  }
+  .carousel-caption .btn {
+    font-size: 80%;
+    padding: 4px 8px;
+  }
+  .carousel-indicators {
+    display: none;
+  }
+  .welcome .display-4 {
+    font-size: 190%;
+  }
+  .social a {
+    font-size: 2em;
+    padding: .7rem;
+  }
+  .navbar {
+    position: static;
+    z-index: 10;
+    width: 100%;
+    background: linear-gradient(to left, #fbd3e9, #bb377d);
+  }
+}

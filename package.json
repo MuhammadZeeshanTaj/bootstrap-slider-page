@@ -1,0 +1,15 @@
+{
+  "name": "slider-landing-page",
+  "version": "1.0.0",
+  "description": "Bootstrap 4 slider landing page",
+  "main": "index.js",
+  "scripts": {
+    "deploy": "gh-pages -d bootstrap-slider-page"
+  },
+  "author": "Muhammad Zeeshan Taj",
+  "license": "ISC",
+  "homepage": "https://MuhammadZeeshanTaj.github.io/bootstrap-slider-page",
+  "dependencies": {
+    "gh-pages": "^2.0.0"
+  }
+}
